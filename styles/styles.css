@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.medium-img {
+  height: 200px;
+  width: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+section#site-name {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+section#candy-selections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
